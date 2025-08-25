@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Multiplication Game App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplication Game App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div class="container">
+    <!-- Score Section -->
+    <div class="score-box">
+      <h2>Score</h2>
+      <p id="score">0</p>
+    </div>
 
-    <script src="app.js"></script>
+    <!-- Question Section -->
+    <div class="question-box">
+      <h3>What is <span id="num1">5</span> × <span id="num2">5</span> ?</h3>
+    </div>
+
+    <!-- Input Section -->
+    <div class="input-box">
+      <input type="text" id="input" placeholder="Enter your answer">
+      <button id="btn">Submit</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
