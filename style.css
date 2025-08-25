@@ -36,8 +36,8 @@ body {
   font-size: 1.2rem;
   color: #333;
 }
-.score-box p {
-  font-size: 2rem;
+.score-box span {
+  font-size: 1.7rem;
   font-weight: bold;
   color: #4f46e5;
 }
